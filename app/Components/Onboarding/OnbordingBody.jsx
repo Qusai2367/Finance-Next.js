@@ -51,6 +51,7 @@ const OnbordingBody = ({ currentSlide, updateSlide }) => {
                         <div
                             key={i}
                             className={
+                                
                                 currentSlide === i
                                     ? "onboarding-slide active"
                                     : "onboarding-slide"
@@ -60,6 +61,7 @@ const OnbordingBody = ({ currentSlide, updateSlide }) => {
                                 flexDirection: "column",
                                 padding: 15,
                                 boxSizing: "border-box",
+                                
                             }}>
                        
                                 <ColoredTitle text={bord.title} highlight='finance.' />

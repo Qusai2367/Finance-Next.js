@@ -33,7 +33,7 @@ const OnboardingComponets = () => {
     // Render onboarding slides
     return (
         <>
-            <div className='flex flex-col absolute bottom-0 m-8 select-none'>
+            <div className='flex flex-col absolute bottom-0 m-8 select-none w'>
                 {/* Body Of Onbording */}
                 <OnbordingBody
                     currentSlide={currentSlide}

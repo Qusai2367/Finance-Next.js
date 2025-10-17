@@ -48,7 +48,9 @@ body {
     color: var(--foreground);
     font-family: "mono";;
 }
-
+ .w {
+    width: calc(100% - 60px);
+ }
 
 /* Main Color */
 .text-main {color: var(--main-color);}
@@ -63,6 +65,7 @@ p {
   color: var(--gray3);
 }
 
+.notfound {background: var(--main-color);}
 
 @layer base {
     .container {

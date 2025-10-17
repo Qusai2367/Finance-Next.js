@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-import splash from "../assets/logo_w300.png";
+import splash from "../../assets/logo_w300.png";
 
 const SplashComponets = () => {
 

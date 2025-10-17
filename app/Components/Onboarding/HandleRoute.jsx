@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import { useContext, useEffect } from "react";
 import { RouteContext } from "@/app/Context/RouteContext";
-import SplashComponents from "../SplashComponets";
+import SplashComponents from "../Splash/SplashComponets";
 
 export default function ProtectedRoute({ children }) {
     const { finishedOnboarding, isLoggedIn, loading, splash } =
