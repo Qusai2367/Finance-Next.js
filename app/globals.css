@@ -2,7 +2,7 @@
 @import "./style/buttons.css";
 @import "./style/custom.css";
 @import "./style/typography.css";
-
+@import "./style/colors.css";
 
 :root {
 
@@ -51,21 +51,6 @@ body {
  .w {
     width: calc(100% - 60px);
  }
-
-/* Main Color */
-.text-main {color: var(--main-color);}
-.bg-main {background: var(--main-color);}
-
-/* gray-3 color */
-.text-gray-3 {color: var(--gray3);}
-.bg-gray-3 {background: var(--gray3);}
-
-
-p {
-  color: var(--gray3);
-}
-
-.notfound {background: var(--main-color);}
 
 @layer base {
     .container {

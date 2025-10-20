@@ -1,0 +1,26 @@
+p {
+  color: var(--gray3);
+}
+
+/* Main Color */
+.text-main {color: var(--main-color);}
+.bg-main {background: var(--main-color);}
+
+.bg-color-2 {background: var(--color2);}
+
+.notfound {background: var(--main-color);}
+
+
+/* gray-2 */
+.bg-gray-2 {background: var(--gray2);}
+
+/* gray-3 */
+.text-gray-3 {color: var(--gray3);}
+.bg-gray-3 {background: var(--gray3);}
+
+/* gray-4 */
+.text-gray-4 {color: var(--gray4);}
+
+
+/* color-2 */
+.text-color-2 {color:var(--color2)}

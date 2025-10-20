@@ -5,7 +5,7 @@ const ColoredTitle = ({ text, highlight }) => {
 
     return (
         <>
-            <h1 className='text-6xl leading-tight mb-2.5 font-black'>
+            <h1 className='text-4xl leading-tight mb-2.5 font-black'>
                 {textParts.map((part, index) =>
                     part.toLowerCase() === highlight.toLowerCase() ? (
                         <span key={index} className='text-main font-bold'>

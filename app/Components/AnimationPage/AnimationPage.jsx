@@ -34,7 +34,7 @@ export default function AnimationPage({ children, delay = 2000 }) {
                         duration: 0.8,
                         ease: [0.25, 0.1, 0.25, 1],
                     }}
-                    className=""
+                    className="container"
                 >
                     {children}
                 </motion.main>
